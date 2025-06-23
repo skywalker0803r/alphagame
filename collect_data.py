@@ -5,7 +5,7 @@ import threading
 from PIL import Image
 from pynput import keyboard
 
-SAVE_DIR = "data"
+SAVE_DIR = "data4"
 os.makedirs(SAVE_DIR, exist_ok=True)
 
 frame_count = 0
@@ -61,6 +61,6 @@ with mss.mss() as sct:
                     f.write(",".join(current_keys))
 
             print(f"Saved {filename} with keys: {current_keys}")
-            time.sleep(1)
+            time.sleep(0.2)
     except KeyboardInterrupt:
         print("停止擷取")
