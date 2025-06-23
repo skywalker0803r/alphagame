@@ -1,0 +1,1 @@
+Key.up,Key.right

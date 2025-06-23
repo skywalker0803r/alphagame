@@ -1,0 +1,1 @@
+Key.left,Key.alt_l
